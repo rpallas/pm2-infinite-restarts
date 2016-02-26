@@ -1,2 +1,4 @@
-console.log("Hello from ", process.env.HELLO_HAPI_PORT);
-process.exit(0);
+setInterval(function() {
+  console.log(process.env.NAUGHTY_SCRIPT_GREETING);
+  process.exit(1);
+}, 20);
