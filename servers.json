@@ -1,0 +1,104 @@
+{
+  "apps" : [
+    {
+      "name"        : "hello-hapi-01",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8081
+      }
+    },
+    {
+      "name"        : "hello-hapi-02",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8082
+      }
+    },
+    {
+      "name"        : "hello-hapi-03",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8083
+      }
+    },
+    {
+      "name"        : "hello-hapi-04",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8084
+      }
+    },
+    {
+      "name"        : "hello-hapi-05",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8085
+      }
+    },
+    {
+      "name"        : "hello-hapi-06",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8086
+      }
+    },
+    {
+      "name"        : "hello-hapi-07",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8087
+      }
+    },
+    {
+      "name"        : "hello-hapi-08",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8088
+      }
+    },
+    {
+      "name"        : "hello-hapi-09",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8089
+      }
+    },
+    {
+      "name"        : "hello-hapi-10",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "cwd"         : ".",
+      "env": {
+        "NODE_ENV": "test",
+        "HELLO_HAPI_PORT": 8090
+      }
+    }
+  ]
+}
