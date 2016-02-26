@@ -2,7 +2,7 @@
   "apps" : [
     {
       "name"        : "hello-hapi-01",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
@@ -15,7 +15,7 @@
     },
     {
       "name"        : "hello-hapi-02",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
@@ -28,7 +28,7 @@
     },
     {
       "name"        : "hello-hapi-03",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
@@ -41,7 +41,7 @@
     },
     {
       "name"        : "hello-hapi-04",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
@@ -54,7 +54,7 @@
     },
     {
       "name"        : "hello-hapi-05",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
@@ -67,7 +67,7 @@
     },
     {
       "name"        : "hello-hapi-06",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
@@ -80,7 +80,7 @@
     },
     {
       "name"        : "hello-hapi-07",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
@@ -93,7 +93,7 @@
     },
     {
       "name"        : "hello-hapi-08",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
@@ -106,7 +106,7 @@
     },
     {
       "name"        : "hello-hapi-09",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
@@ -119,7 +119,7 @@
     },
     {
       "name"        : "hello-hapi-10",
-      "script"      : "service.js",
+      "script"      : "naughty-script.js",
       "log_date_format"  : "YYYY-MM-DD HH:mm Z",
       "watch"       : [
         "."
