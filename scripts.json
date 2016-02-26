@@ -1,250 +1,155 @@
 {
   "apps" : [
     {
-      "name"        : "hello-hapi-01",
+      "name"        : "naughty-script-01",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8081
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 01 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-02",
+      "name"        : "naughty-script-02",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8082
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 02 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-03",
+      "name"        : "naughty-script-03",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8083
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 03 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-04",
+      "name"        : "naughty-script-04",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8084
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 04 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-05",
+      "name"        : "naughty-script-05",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8085
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 05 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-06",
+      "name"        : "naughty-script-06",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8086
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 06 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-07",
+      "name"        : "naughty-script-07",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8087
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 07 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-08",
+      "name"        : "naughty-script-08",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8088
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 08 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-09",
+      "name"        : "naughty-script-09",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8089
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 09 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-10",
+      "name"        : "naughty-script-10",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8090
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 10 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-11",
+      "name"        : "naughty-script-11",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8091
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 11 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-12",
+      "name"        : "naughty-script-12",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8092
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 12 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-13",
+      "name"        : "naughty-script-13",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8093
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 13 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-14",
+      "name"        : "naughty-script-14",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8094
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 14 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-15",
+      "name"        : "naughty-script-15",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8095
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 15 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-16",
+      "name"        : "naughty-script-16",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8096
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 16 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-17",
+      "name"        : "naughty-script-17",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8097
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 17 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-18",
+      "name"        : "naughty-script-18",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8098
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 18 says hi"
       }
     },
     {
-      "name"        : "hello-hapi-19",
+      "name"        : "naughty-script-19",
       "script"      : "naughty-script.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8099
+        "NAUGHTY_SCRIPT_GREETING": "Naughty script 19 says hi"
       }
     }
   ]

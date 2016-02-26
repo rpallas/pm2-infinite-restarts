@@ -6,7 +6,7 @@ const Hapi = require('hapi');
 const server = new Hapi.Server();
 server.connection({
   host: 'localhost',
-  port: 8000
+  port: process.env.NAUGHTY_SERVICE_PORT
 });
 
 // Add the route
@@ -21,6 +21,7 @@ server.route({
 
 // Start the server
 server.start((err) => {
+  process.exit(1);
 
   if (err) {
     throw err;
