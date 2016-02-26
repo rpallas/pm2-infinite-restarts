@@ -1,250 +1,155 @@
 {
   "apps" : [
     {
-      "name"        : "hello-hapi-01",
+      "name"        : "naughty-service-01",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8081
+        "NAUGHTY_SERVICE_PORT": 8081
       }
     },
     {
-      "name"        : "hello-hapi-02",
+      "name"        : "naughty-service-02",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8082
+        "NAUGHTY_SERVICE_PORT": 8082
       }
     },
     {
-      "name"        : "hello-hapi-03",
+      "name"        : "naughty-service-03",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8083
+        "NAUGHTY_SERVICE_PORT": 8083
       }
     },
     {
-      "name"        : "hello-hapi-04",
+      "name"        : "naughty-service-04",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8084
+        "NAUGHTY_SERVICE_PORT": 8084
       }
     },
     {
-      "name"        : "hello-hapi-05",
+      "name"        : "naughty-service-05",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8085
+        "NAUGHTY_SERVICE_PORT": 8085
       }
     },
     {
-      "name"        : "hello-hapi-06",
+      "name"        : "naughty-service-06",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8086
+        "NAUGHTY_SERVICE_PORT": 8086
       }
     },
     {
-      "name"        : "hello-hapi-07",
+      "name"        : "naughty-service-07",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8087
+        "NAUGHTY_SERVICE_PORT": 8087
       }
     },
     {
-      "name"        : "hello-hapi-08",
+      "name"        : "naughty-service-08",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8088
+        "NAUGHTY_SERVICE_PORT": 8088
       }
     },
     {
-      "name"        : "hello-hapi-09",
+      "name"        : "naughty-service-09",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8089
+        "NAUGHTY_SERVICE_PORT": 8089
       }
     },
     {
-      "name"        : "hello-hapi-10",
+      "name"        : "naughty-service-10",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8090
+        "NAUGHTY_SERVICE_PORT": 8090
       }
     },
     {
-      "name"        : "hello-hapi-11",
+      "name"        : "naughty-service-11",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8091
+        "NAUGHTY_SERVICE_PORT": 8091
       }
     },
     {
-      "name"        : "hello-hapi-12",
+      "name"        : "naughty-service-12",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8092
+        "NAUGHTY_SERVICE_PORT": 8092
       }
     },
     {
-      "name"        : "hello-hapi-13",
+      "name"        : "naughty-service-13",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8093
+        "NAUGHTY_SERVICE_PORT": 8093
       }
     },
     {
-      "name"        : "hello-hapi-14",
+      "name"        : "naughty-service-14",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8094
+        "NAUGHTY_SERVICE_PORT": 8094
       }
     },
     {
-      "name"        : "hello-hapi-15",
+      "name"        : "naughty-service-15",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8095
+        "NAUGHTY_SERVICE_PORT": 8095
       }
     },
     {
-      "name"        : "hello-hapi-16",
+      "name"        : "naughty-service-16",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8096
+        "NAUGHTY_SERVICE_PORT": 8096
       }
     },
     {
-      "name"        : "hello-hapi-17",
+      "name"        : "naughty-service-17",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8097
+        "NAUGHTY_SERVICE_PORT": 8097
       }
     },
     {
-      "name"        : "hello-hapi-18",
+      "name"        : "naughty-service-18",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8098
+        "NAUGHTY_SERVICE_PORT": 8098
       }
     },
     {
-      "name"        : "hello-hapi-19",
+      "name"        : "naughty-service-19",
       "script"      : "naughty-service.js",
-      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
-      "watch"       : [
-        "."
-      ],
-      "cwd"         : ".",
+      "watch"       : true,
       "env": {
-        "NODE_ENV": "test",
-        "HELLO_HAPI_PORT": 8099
+        "NAUGHTY_SERVICE_PORT": 8099
       }
     }
   ]
