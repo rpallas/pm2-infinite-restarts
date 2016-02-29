@@ -1,0 +1,15 @@
+{
+  "apps" : [
+    {
+      "name"        : "naughty-service",
+      "script"      : "naughty-service.js",
+      "env": {
+        "NAUGHTY_SERVICE_PORT": 8080,
+        "min_uptime": 5000,
+        "max_restarts": 5
+      },
+      "instances"  : 0,
+      "exec_mode"  : "cluster_mode"
+    }
+  ]
+}
